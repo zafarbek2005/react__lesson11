@@ -19,9 +19,12 @@ const SingleRoute = () => {
     }
 
     return (
+
         <div>
+
             <h2>{product?.title}</h2>
             <img src={product?.images[0]} alt="" />
+
         </div>
     );
 };

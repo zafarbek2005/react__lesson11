@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Not__found = () => {
+const NotFound = () => {
   return (
-    <div>Not__found</div>
+    <div style={{textAlign:"center"}}>
+        <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/404-error-page-templates.jpg" alt="" />
+    </div>
   )
 }
 
-export default Not__found
+export default NotFound

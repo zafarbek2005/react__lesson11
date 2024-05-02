@@ -11,7 +11,7 @@ const Home = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`/products?limit=${count * 10}`)
+      .get(`/products?limit=${count * 8}`)
       .then((res) => setData(res.data.products))
       .catch((error) => console.log(error))
       .finally(() => setLoading(false));
@@ -26,7 +26,7 @@ const Home = () => {
         Learn more
       </button>
        </div>
-       
+
     </>
   );
 };
