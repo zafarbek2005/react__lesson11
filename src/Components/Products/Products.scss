@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    max-width: 1440px;
+    padding: 0 20;
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-top: 80px;
+       .card{
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: .3s;
+          &:hover{
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          }
+        img{
+          width: 250px;
+          height: 250px;
+          object-fit: cover;
+        }
+        button{
+            border: none;
+            width: 100px;
+            background:#000;
+            color: #ffff;
+            border-radius: 10px;
+        }
+       }
+}
